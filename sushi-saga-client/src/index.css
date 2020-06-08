@@ -14,13 +14,19 @@ body {
       ". . . . ."
       ". bt bt bt ."
       ". . rm . ."
-      ". tb tb tb .";
+      ". tb tb tb ."
+      ". . fm . .";
 }
 
 
 .remaining {
   grid-area: rm;
   margin: auto;
+}
+
+.form {
+  grid-area: fm;
+  text-align: center;
 }
 
 .plate {
